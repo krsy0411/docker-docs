@@ -22,4 +22,6 @@ docker-docs 내용 기반 **도커 공부 내용 정리 공간**
 
 #### What is a registry?
 
+<a href="https://thistimenull.notion.site/What-is-a-registry-1691118ea06f80339232de0014e5003e?pvs=4" alt="docker-concepts/basics/registry">레지스트리란?</a>
+
 #### What is Docker Compose?
