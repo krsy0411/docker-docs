@@ -12,6 +12,8 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
+        with:
+          fetch-depth: 0 # 전체 커밋 히스토리를 가져옴
 
       - name: Configure Git
         run: |
@@ -20,12 +22,20 @@ jobs:
 
       - name: Push one commit per day
         run: |
-          # origin/main에 없는 첫 번째 커밋을 찾아서 푸시
+          # origin/main의 최신 상태 가져오기
           git fetch origin main
-          NEW_COMMIT=$(git rev-list --reverse origin/main..HEAD | head -n 1)
+
+          # temp-push 브랜치의 첫 번째 새 커밋 확인
+          NEW_COMMIT=$(git rev-list --reverse origin/main..temp-push | head -n 1)
+
           if [ -n "$NEW_COMMIT" ]; then
-            git reset --hard $NEW_COMMIT
-            git push origin main
+            echo "Found new commit: $NEW_COMMIT"
+
+            # 새 커밋만 포함된 temp-main 브랜치를 생성
+            git checkout -b temp-main $NEW_COMMIT
+
+            # main 브랜치로 강제 푸시
+            git push origin temp-main:main --force-with-lease
           else
             echo "No new commits to push!"
           fi
