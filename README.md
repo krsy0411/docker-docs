@@ -29,3 +29,9 @@ docker-docs 내용 기반 **도커 공부 내용 정리 공간**
 #### What is Docker Compose?
 
 <a href="https://thistimenull.notion.site/What-is-Docker-Compose-1691118ea06f802e8df7e40bc4f1a780?pvs=4" alt="docker-concepts/basics/docker-compose">Docker Compose란?</a>
+
+## Building images
+
+#### Understanding the image layers
+
+<a href="https://thistimenull.notion.site/Understanding-the-image-layers-1691118ea06f80d099d6d9aacaeee93b?pvs=4" alt="docker-concepts/building-images/image-layers">image layer에 대한 이해</a>
