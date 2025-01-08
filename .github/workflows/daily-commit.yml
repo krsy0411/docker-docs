@@ -20,6 +20,11 @@ jobs:
           git config user.name "DevNerd"
           git config user.email "krsy0411@naver.com"
 
+      - name: Fetch all branches
+        run: |
+          git fetch origin main
+          git fetch origin temp-push
+
       - name: Push one commit per day
         run: |
           # origin/main의 최신 상태 가져오기
