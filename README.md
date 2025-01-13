@@ -35,3 +35,7 @@ docker-docs 내용 기반 **도커 공부 내용 정리 공간**
 #### Understanding the image layers
 
 <a href="https://thistimenull.notion.site/Understanding-the-image-layers-1691118ea06f80d099d6d9aacaeee93b?pvs=4" alt="docker-concepts/building-images/image-layers">image layer에 대한 이해</a>
+
+#### Writing a Dockerfile
+
+<a href="https://www.notion.so/thistimenull/Writing-a-Dockerfile-1691118ea06f803ba86ae9506a93f226?pvs=4" alt="docker-concepts/building-images/writing-dockerfile">도커 파일 작성하기</a>
