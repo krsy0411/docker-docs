@@ -43,3 +43,7 @@ docker-docs 내용 기반 **도커 공부 내용 정리 공간**
 #### Build, tag, and publish an image
 
 <a href="https://thistimenull.notion.site/Build-tag-and-publish-an-image-1691118ea06f8019a8c4dcf3cdbf7714?pvs=4" alt="docker-concepts/building-images/build-tag-publish">이미지 빌드 & 태그 & 퍼블리시</a>
+
+#### Using the build cache
+
+<a href="https://thistimenull.notion.site/Using-the-build-cache-1691118ea06f806c899ce200e7ac33c9?pvs=4" alt="docker-concepts/building-images/build-cache">빌드 캐시 사용</a>
