@@ -47,3 +47,7 @@ docker-docs 내용 기반 **도커 공부 내용 정리 공간**
 #### Using the build cache
 
 <a href="https://thistimenull.notion.site/Using-the-build-cache-1691118ea06f806c899ce200e7ac33c9?pvs=4" alt="docker-concepts/building-images/build-cache">빌드 캐시 사용</a>
+
+#### Multi-stage builds
+
+<a href="https://thistimenull.notion.site/Multi-stage-builds-1691118ea06f80449cb2dd4fa5c58c65?pvs=4" alt="docker-concepts/building-images/multi-stage-builds">Multi stage 빌드</a>
