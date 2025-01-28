@@ -51,3 +51,9 @@ docker-docs 내용 기반 **도커 공부 내용 정리 공간**
 #### Multi-stage builds
 
 <a href="https://thistimenull.notion.site/Multi-stage-builds-1691118ea06f80449cb2dd4fa5c58c65?pvs=4" alt="docker-concepts/building-images/multi-stage-builds">Multi stage 빌드</a>
+
+## Running containers
+
+#### Publishing and exposing ports
+
+<a href="https://thistimenull.notion.site/Publishing-and-exposing-ports-1691118ea06f8043918ec216bcfee897?pvs=4" alt="docker-concepts/running-containers/publishing-exposing-ports">port들을 게시하고 노출시키기</a>
