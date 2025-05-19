@@ -9,7 +9,7 @@
 
 | 섹션               | 주제                                 | 설명                          | 링크                                                                                                           |
 | ------------------ | ------------------------------------ | ----------------------------- | -------------------------------------------------------------------------------------------------------------- |
-| What is Docker?    | **도커란?**                          | -                             | [What is Docker](https://thistimenull.notion.site/What-is-Docker-1691118ea06f8016acfef313b7237666?pvs=4)       |
+| What is Docker?    | **도커란?**                          | -                             | [Link](https://thistimenull.notion.site/What-is-Docker-1691118ea06f8016acfef313b7237666?pvs=4)       |
 | The basics         | **What is a container?**             | 컨테이너란?                   | [Link](https://thistimenull.notion.site/What-is-a-container-1661118ea06f80ad84faed2e3e7acf7e?pvs=4)            |
 | The basics         | **What is a image?**                 | 이미지란?                     | [Link](https://thistimenull.notion.site/What-is-a-image-1661118ea06f806ab288c64c5ad0f2a2?pvs=4)                |
 | The basics         | **What is a registry?**              | 레지스트리란?                 | [Link](https://thistimenull.notion.site/What-is-a-registry-1691118ea06f80339232de0014e5003e?pvs=4)             |
